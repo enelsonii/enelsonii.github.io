@@ -1,0 +1,95 @@
+/** Contact page Style **/
+* {
+    box-sizing: border-box;
+    text-align: left;
+    color: black;
+}
+.topnav {
+    overflow: hidden;
+  }
+  
+  .topnav a {
+    float: left;
+    color: teal;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 24px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+  }
+  
+  .topnav a.active {
+    color: white;
+  }
+  
+  .topnav-right {
+    float: right;
+    color: gray;
+  }
+#full {
+    width: both;
+    overflow: auto;
+    background: lightgray;
+    padding: 50px;
+  }
+  #content {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    background: white;
+    border-radius: 4px;
+  }
+  h2 {
+      color: teal;
+  }
+#name {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+#email {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+#message {
+    width: 100%;
+    length: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+#Submit {
+    background-color: teal;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+#place-holder {
+    padding: 10px;
+    background:teal;
+    text-align: center;
+}
+footer {
+    padding: 20px;
+    clear: both;
+    background: grey;
+    text-align: center;
+}

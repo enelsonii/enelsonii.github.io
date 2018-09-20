@@ -1,0 +1,71 @@
+/** Portfolio Page Style **/
+* {
+    box-sizing: border-box;
+    text-align: left;
+}
+.topnav {
+    overflow: hidden;
+  }
+  
+  .topnav a {
+    float: left;
+    color: teal;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 24px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+  }
+  
+  .topnav a.active {
+    color: white;
+  }
+  
+  .topnav-right {
+    float: right;
+  }
+#full {
+    width: both;
+    overflow: auto;
+    background: lightgray;
+    padding: 50px;
+  }
+#content {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    background: white;
+    border-radius: 4px;
+}
+#portfolio {
+    color: teal;
+}
+img {
+    border-radius: 8px;
+    border-style: solid;
+}
+#box1 
+}
+#box2 {
+}
+#box3 {
+}
+#box4 {
+}
+#box5 {
+    
+}
+#place-holder {
+    padding: 10px;
+    background:teal;
+    text-align: center;
+}
+footer {
+    padding: 20px;
+    clear: both;
+    background: grey;
+    text-align: center;
+}
