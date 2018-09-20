@@ -1,10 +1,12 @@
+/** Home Page Style **/
 * {
     box-sizing: border-box;
 } 
+/** Nav bar **/
   .topnav {
     overflow: hidden;
   }
-  
+ /** Eric Nelson II **/ 
   .topnav a {
     float: left;
     color: #4aaaa5;
@@ -13,24 +15,26 @@
     text-decoration: none;
     font-size: 24px;
   }
-  
+/** Nav Bar curser hover color **/
   .topnav a:hover {
     background-color: #ddd;
   }
-  
+/** Nav bar when button is active **/
   .topnav a.active {
     color: white;
   }
-  
+  /** Nav menu shift right **/
   .topnav-right {
     float: right;
   }
+/** Image background **/
 #full {
     width: both;
     overflow: auto;
-    background: lightgray;
+    background-image: url("../images/gravel.png");
     padding: 50px;
   }
+  /** The life of the page **/
 #content {
   width: 100%;
   padding: 12px 20px;
@@ -39,22 +43,27 @@
   background: white;
   border-radius: 4px;
 }
+/** About Me h2 **/
 h2 {
     color: #4aaaab;
     font-family: Georgia, Times, 'Times New Roman', serif;
 }
+/** My image **/
 img {
  float: left;
  padding: 10px;
 }
+/** Personal Bio **/
 #p {
     font-family: Arial, Helvetica, sans-serif
 }
+/** empty pace **/
 #place-holder {
     padding: 10px;
     background:#4aaaa5;
     text-align: center;
 }
+/** footer **/
 footer {
     padding: 20px;
     clear: both;

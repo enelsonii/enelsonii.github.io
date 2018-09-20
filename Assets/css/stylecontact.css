@@ -2,39 +2,41 @@
 * {
     box-sizing: border-box;
     text-align: left;
-    color: black;
 }
+/** Nav bar **/
 .topnav {
     overflow: hidden;
   }
-  
+ /** Eric Nelson II **/ 
   .topnav a {
     float: left;
-    color: teal;
+    color: #4aaaab;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 24px;
   }
-  
+/** Nav Bar curser hover color **/
   .topnav a:hover {
     background-color: #ddd;
   }
-  
+/** Nav bar when button is active **/  
   .topnav a.active {
     color: white;
   }
-  
+  /** Nav menu shift right **/
   .topnav-right {
     float: right;
     color: gray;
   }
+/** Image background **/
 #full {
     width: both;
     overflow: auto;
-    background: lightgray;
+    background-image: url("../images/gravel.png");
     padding: 50px;
   }
+  /** The life of the page **/
   #content {
     width: 100%;
     padding: 20px;
@@ -42,9 +44,12 @@
     background: white;
     border-radius: 4px;
   }
+  /** Contact h2 **/
   h2 {
-      color: teal;
+      color: #4aaaab;
+      font-size: 24pt;
   }
+  /** Name Box **/
 #name {
     width: 100%;
     padding: 12px 20px;
@@ -53,6 +58,7 @@
     border: 1px solid black;
     border-radius: 4px;
 }
+/** Email Box **/
 #email {
     width: 100%;
     padding: 12px 20px;
@@ -61,6 +67,7 @@
     border: 1px solid black;
     border-radius: 4px;
 }
+/** message box **/
 #message {
     width: 100%;
     length: 50%;
@@ -70,8 +77,9 @@
     border: 1px solid black;
     border-radius: 4px;
 }
+/** Submit button **/
 #Submit {
-    background-color: teal;
+    background-color: #4aaaab;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -82,11 +90,13 @@
     margin: 4px 2px;
     cursor: pointer;
 }
+/** empty pace **/
 #place-holder {
     padding: 10px;
-    background:teal;
+    background:#4aaaab;
     text-align: center;
 }
+/** footer **/
 footer {
     padding: 20px;
     clear: both;

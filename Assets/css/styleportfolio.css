@@ -3,36 +3,39 @@
     box-sizing: border-box;
     text-align: left;
 }
+/** Nav bar **/
 .topnav {
     overflow: hidden;
   }
-  
-  .topnav a {
+ /** Eric Nelson II **/ 
+.topnav a {
     float: left;
-    color: teal;
+    color: #4aaaab;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 24px;
-  }
-  
-  .topnav a:hover {
+}
+/** Nav Bar curser hover color **/
+.topnav a:hover {
     background-color: #ddd;
-  }
-  
-  .topnav a.active {
+}
+/** Nav bar when button is active **/
+.topnav a.active {
     color: white;
-  }
-  
+}
+/** Nav menu shift right **/
   .topnav-right {
     float: right;
-  }
+}
+/** Image background **/
 #full {
     width: both;
     overflow: auto;
-    background: lightgray;
+    background-image: url("../images/gravel.png");
     padding: 50px;
-  }
+}
+/** The life of the page **/
 #content {
     width: 100%;
     padding: 20px;
@@ -40,29 +43,22 @@
     background: white;
     border-radius: 4px;
 }
+/** Portfolio h2 **/
 #portfolio {
-    color: teal;
+    color: #4aaaab;
 }
+/** image palceholder **/
 img {
     border-radius: 8px;
     border-style: solid;
 }
-#box1 
-}
-#box2 {
-}
-#box3 {
-}
-#box4 {
-}
-#box5 {
-    
-}
+/** empty pace **/
 #place-holder {
     padding: 10px;
-    background:teal;
+    background:#4aaaab;
     text-align: center;
 }
+/** footer **/
 footer {
     padding: 20px;
     clear: both;
