@@ -52,6 +52,23 @@ img {
     border-radius: 8px;
     border-style: solid;
 }
+/** Box display **/
+box1 {
+    display: inline;
+}  
+box2 {
+    display: inline;
+}
+box3 {
+    display: inline;
+}
+box4 {
+    display: inline;
+}
+box5 {
+    display: inline;
+}
+
 /** empty pace **/
 #place-holder {
     padding: 10px;
