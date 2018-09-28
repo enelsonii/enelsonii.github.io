@@ -18,7 +18,8 @@
 }
 /** Nav Bar curser hover color **/
 .topnav a:hover {
-    background-color: #ddd;
+    background-color: #4aaaab;
+    color: white;
 }
 /** Nav bar when button is active **/
 .topnav a.active {
@@ -28,20 +29,31 @@
   .topnav-right {
     float: right;
 }
+body {
+    margin: 0%;
+}
 /** Image background **/
 #full {
     width: both;
     overflow: auto;
     background-image: url("../images/gravel.png");
     padding: 50px;
+    padding-right: 30%;
+}
+hr {
+    box-lines: 20px;
 }
 /** The life of the page **/
 #content {
     width: 100%;
-    padding: 20px;
+    padding: 12px 20px;
+    margin-right: 50px;
     box-sizing: border-box;
     background: white;
     border-radius: 4px;
+}
+h1 {
+    padding: 0px;
 }
 /** Portfolio h2 **/
 #portfolio {
@@ -49,7 +61,7 @@
 }
 /** image palceholder **/
 img {
-    border-radius: 8px;
+   
     border-style: solid;
 }
 /** Box display **/
@@ -82,3 +94,78 @@ footer {
     background: grey;
     text-align: center;
 }
+/* Display size 400px */
+@media (width: 400px) {
+    .topnav a {
+      font-size: 14px;
+    }
+  }
+  
+  @media (width: 400px) {
+    img {
+      width: 100%;
+    }
+  }
+  
+  /* Display size 640px */
+  @media (width: 640px) {
+    #Home {
+      font-size: 50px;
+      padding: 20px;
+      width: 100%;
+    }
+    .topnav a:hover {
+        background-color: #4aaaab;
+        color: white;
+    }
+    .topnav-right {
+      margin-right: 150px;
+    }
+  }
+  
+  @media (width: 640px) {
+    img {
+      width: 90%;
+    }
+  }
+  
+  /* Display size 768px */
+  @media (width: 768px) {
+    #Home {
+      margin-left: 50px;
+    }
+  }
+    #full {
+    padding-right: 40px;
+  }
+  @media (width: 768px) {
+    img {
+      width: 45%;
+    }
+  }
+  /* Display size 980px */
+  @media (width: 980px) {
+    .Home {
+      margin-left: 50px;
+    }
+  } 
+  @media (width: 980px) {
+    topnav  {
+        margin-left: 20px;
+    }
+    .content {
+      box-sizing: content-box;
+        }
+    }
+  @media (width: 980px) {
+    .b {
+      text-align-last: left;
+    }
+    #Home {
+        margin-left: 50px;
+    }
+    #full {
+        padding-right: 350px;
+        
+    }
+  }

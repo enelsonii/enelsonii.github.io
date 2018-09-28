@@ -1,6 +1,7 @@
 /** Home Page Style **/
 * {
     box-sizing: border-box;
+    text-align: center;
 } 
 /** Nav bar **/
   .topnav {
@@ -17,7 +18,8 @@
   }
 /** Nav Bar curser hover color **/
   .topnav a:hover {
-    background-color: #ddd;
+    background-color: #4aaaab;
+    color: white;
   }
 /** Nav bar when button is active **/
   .topnav a.active {
@@ -27,6 +29,9 @@
   .topnav-right {
     float: right;
   }
+  body {
+    margin: 0%;
+}
 /** Image background **/
 #full {
     width: both;
@@ -50,6 +55,7 @@ h2 {
 }
 /** My image **/
 img {
+ width:50%;
  float: left;
  padding: 10px;
 }
@@ -60,11 +66,9 @@ img {
 div.a {
   text-indent: 50px;
 }
-div.b {
-  text-indent: 50px;
-}
 div.c {
   text-indent: 50px;
+  text-align: left;
 }
 /** empty pace **/
 #place-holder {
@@ -78,4 +82,70 @@ footer {
     clear: both;
     background: #777777;
     text-align: center;
+}
+/* Display size 400px */
+@media (width: 400px) {
+  .topnav a {
+    font-size: 14px;
+  }
+}
+
+@media (width: 400px) {
+  img {
+    width: 100%;
+  }
+}
+
+/* Display size 640px */
+@media (width: 640px) {
+  .Home {
+    font-size: 50px;
+    padding: 20px;
+    width: 100%;
+    color: white;
+  }
+  .topnav-right {
+    margin-right: 150px;
+  }
+}
+
+@media (width: 640px) {
+  img {
+    width: 100%;
+  }
+}
+
+/* Display size 768px */
+@media (width: 768px) {
+  .Home {
+    margin-left: 50px;
+  }
+}
+
+@media (width: 768px) {
+  img {
+    width: 100%;
+  }
+}
+/* Display size 980px */
+@media (width: 980px) {
+  .Home {
+    margin-left: 50px;
+  }
+}
+@media (width: 980px) {
+  img {
+    width: 30%;
+  }
+}
+@media (width: 980px) {
+  .content {
+    box-sizing: content-box;
+  }
+}
+
+@media (width: 980px) {
+  .b {
+    text-align-last: left;
+  }
 }

@@ -18,7 +18,8 @@
   }
 /** Nav Bar curser hover color **/
   .topnav a:hover {
-    background-color: #ddd;
+    background-color: #4aaaab;
+    color: white;
   }
 /** Nav bar when button is active **/  
   .topnav a.active {
@@ -29,6 +30,9 @@
     float: right;
     color: gray;
   }
+  body {
+    margin: 0%;
+}
 /** Image background **/
 #full {
     width: both;
@@ -102,4 +106,30 @@ footer {
     clear: both;
     background: grey;
     text-align: center;
+}
+
+@media (width: 640px) {
+  #Home {
+    font-size: 50px;
+    padding: 20px;
+    width: 100%;
+    color: #4aaaab;
+  }
+  .topnav a:hover {
+    background-color: #4aaaab;
+    color: white;
+}
+  .topnav-right {
+    margin-right: 130px;
+  }
+}
+@media (width: 768px) {
+  #Home {
+    margin-left: 50px;
+  }
+}
+@media (width: 980px) {
+  #Home {
+    margin-left: 50px;
+  }
 }
