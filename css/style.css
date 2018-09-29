@@ -6,6 +6,10 @@
 /** Nav bar **/
   .topnav {
     overflow: hidden;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
   }
  /** Eric Nelson II **/ 
   .topnav a {
@@ -28,9 +32,11 @@
   /** Nav menu shift right **/
   .topnav-right {
     float: right;
+    padding: 5px;
   }
   body {
     margin: 0%;
+    height: 1500px;
 }
 /** Image background **/
 #full {
@@ -47,6 +53,7 @@
   box-sizing: border-box;
   background: white;
   border-radius: 4px;
+  margin-top: 60px;
 }
 /** About Me h2 **/
 h2 {

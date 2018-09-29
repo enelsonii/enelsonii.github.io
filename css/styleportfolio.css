@@ -1,36 +1,42 @@
 /** Portfolio Page Style **/
 * {
     box-sizing: border-box;
-    text-align: left;
-}
+    text-align: center;
+} 
 /** Nav bar **/
-.topnav {
+  .topnav {
     overflow: hidden;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
   }
  /** Eric Nelson II **/ 
-.topnav a {
+  .topnav a {
     float: left;
-    color: #4aaaab;
+    color: #4aaaa5;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 24px;
-}
+  }
 /** Nav Bar curser hover color **/
-.topnav a:hover {
+  .topnav a:hover {
     background-color: #4aaaab;
     color: white;
-}
+  }
 /** Nav bar when button is active **/
-.topnav a.active {
+  .topnav a.active {
     color: white;
-}
-/** Nav menu shift right **/
+  }
+  /** Nav menu shift right **/
   .topnav-right {
     float: right;
-}
-body {
+    padding: 5px;
+  }
+  body {
     margin: 0%;
+    height: 1500px;
 }
 /** Image background **/
 #full {
@@ -51,6 +57,7 @@ hr {
     box-sizing: border-box;
     background: white;
     border-radius: 4px;
+    margin-top: 60px;
 }
 h1 {
     padding: 0px;
