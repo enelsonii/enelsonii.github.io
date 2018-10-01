@@ -117,8 +117,8 @@ footer {
   /* Display size 640px */
   @media (width: 640px) {
     #Home {
-      font-size: 50px;
-      padding: 20px;
+      font-size: 30px;
+      padding: 5px;
       width: 100%;
     }
     .topnav a:hover {
@@ -127,10 +127,11 @@ footer {
     }
     .topnav-right {
       margin-right: 150px;
+      font-size: 15px;
     }
-  }
-  
-  @media (width: 640px) {
+    .content {
+      padding-top: 50px;
+    }
     img {
       width: 90%;
     }
@@ -140,6 +141,7 @@ footer {
   @media (width: 768px) {
     #Home {
       margin-left: 50px;
+
     }
   }
     #full {

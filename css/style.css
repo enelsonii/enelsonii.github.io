@@ -10,6 +10,8 @@
     position: fixed;
     top: 0;
     width: 100%;
+    padding-right: 4%; 
+    padding-left: 4.4%;
   }
  /** Eric Nelson II **/ 
   .topnav a {
@@ -92,8 +94,13 @@ footer {
 }
 /* Display size 400px */
 @media (width: 400px) {
+  .Home {
+   border-width: 100%;
+   padding-left: 20px;
+  }
   .topnav a {
     font-size: 14px;
+    text-align: center;
   }
 }
 
