@@ -1,46 +1,102 @@
 <!-- Basic Bio -->
 <!DOCTYPE HTML>
 <html>
-    <head>
-        <title>
-            Eric's Portfolio
-        </title>
-        <meta name="viewport" content="width=device-width, initial-scale-1.0">
-        <link rel="stylesheet" type= "text/css" href= "css/styleportfolio.css">
-    </head>
-    <body>
-        <div class="topnav">
-                <a id="Home" href="#home">Eric Nelson II</a>
-                    <div class="topnav-right">
-                        <a href="index.html">About Me</a>
-                        <a href="portfolio.html">Portfolio</a>
-                        <a href="contact.html">Contact</a>
-                    </div>
-        </div>
-        <div id="full">
-            <div id="content">
-                <h1 id="portfolio">Portfolio</h1>
-                <hr>
-                <div id="images">
-                    <a href="https://enelsonii.github.io/word-guess-game/"> <img id="Box1"  padding: 0px 0px 0px 3px;” src="../word-guess-game/assets/images/characters.gif"
-                        alt="I swear it should be a picture here" width="213px"> </a>
-                    <a href="https://enelsonii.github.io/unit-4-game/"><img id="Box2"  padding: 0px 0px 0px 3px;” src="../unit-4-game/assets/images/Crystal_rare.png"
-                        alt="I swear it should be a picture here" width="200px"></a>
-                   <br>
-                    <img id="Box3"  padding: 0px 0px 0px 3px;” src="images/sega.jpg"
-                        alt="I swear it should be a picture here" height="250px" width="250px">
-                    <img id="Box4"  padding: 0px 0px 0px 3px;” src="images/Alex.jpg"
-                        alt="I swear it should be a picture here" height= "250px" width="215px">
-                    <br>
-                    <img id="Box5"  padding: 0px 0px 0px 3px;” src="images/Jordans.jpg"
-                        alt="I swear it should be a picture here" width="250px">
+
+<head>
+    <title>
+        Eric's Portfolio
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale-1.0">
+    <link rel="stylesheet" type="text/css" href="css/styleportfolio.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+</head>
+
+<body>
+    <nav class="navbar fixed-top">
+        <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+            <header class="masthead mb-auto">
+                <div class="inner">
+                    <nav class="nav nav-masthead justify-content-center">
+                        <a class="nav-link active" href="index.html">Home</a>
+                        <a class="nav-link" href="#">Top of Page</a>
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </nav>
                 </div>
-            </div>   
+            </header>
         </div>
-        <div id="place-holder"></div>
-        <footer>
-            Copyright &copy;
-        </footer>
-    
-    </body>
+    </nav>
+
+    <div id="images">
+        <h1>Portfolio</h1>
+        
+        <div class="wordguess">
+            <h3>Word Guessing Game</h3>
+            <a href="https://enelsonii.github.io/word-guess-game/"> <img id="Box1" padding: 0px 0px 0px 3px;” src="../word-guess-game/assets/images/characters.gif"
+                    alt="I swear it should be a picture here" width="213px">
+                <br>
+                <a href="https://enelsonii.github.io/word-guess-game/">
+                    <button type="button" class="btn btn-primary" href="https://enelsonii.github.io/word-guess-game/">Play
+                        Game
+                    </button>
+                </a>
+
+                <a href="https://github.com/enelsonii?tab=repositories">
+                    <button type="button" class="btn btn-primary" href="">See inside</button>
+                </a>
+            </a>
+        </div>
+        <br><br><br>
+        <div class="wordguess">
+            <h3>Crystal Counter</h3>
+            <a href="https://enelsonii.github.io/unit-4-game/"> <img id="Box1" padding: 0px 0px 0px 3px;” src="../unit-4-game/assets/images/Crystal_rare.png"
+                    alt="I swear it should be a picture here" width="213px">
+                <br>
+                <a href="https://enelsonii.github.io/unit-4-game/">
+                    <button type="button" class="btn btn-primary" href="https://enelsonii.github.io/unit-4-game/">Play Game</button>
+                </a>
+
+                <a href="https://github.com/enelsonii?tab=repositories">
+                    <button type="button" class="btn btn-primary" href="">See inside</button>
+                </a>
+            </a>
+        </div>
+    </div>
+    <nav class="navbar fixed-bottom">
+
+        <p>Copyright &copy;</p>
+
+    </nav>
+
+    </div>
+
+    <!--  -->
+    <!-- <div class="topnav">
+        <a id="Home" href="#home">Eric Nelson II</a>
+        <div class="topnav-right">
+            <a href="index.html">About Me</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </div>
+    <div id="full">
+        <div id="content">
+            <h1 id="portfolio">Portfolio</h1>
+            <hr>
+            <div id="images">
+                <a href="https://enelsonii.github.io/word-guess-game/"> <img id="Box1" padding: 0px 0px 0px 3px;” src="../word-guess-game/assets/images/characters.gif"
+                        alt="I swear it should be a picture here" width="213px"> </a>
+                <a href="https://enelsonii.github.io/unit-4-game/"><img id="Box2" padding: 0px 0px 0px 3px;” src="../unit-4-game/assets/images/Crystal_rare.png"
+                        alt="I swear it should be a picture here" width="200px"></a>
+            </div>
+        </div>
+    </div>
+    <div id="place-holder"></div>
+    <footer>
+        Copyright &copy;
+    </footer> -->
+
+</body>
+
 </html>

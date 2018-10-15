@@ -2,41 +2,24 @@
 * {
     box-sizing: border-box;
     text-align: center;
+    color: white;
+    font-family: cursive;
 } 
-/** Nav bar **/
-  .topnav {
-    overflow: hidden;
-    background-color: white;
-    position: fixed;
-    top: 0;
-    width: 100%;
-  }
- /** Eric Nelson II **/ 
-  .topnav a {
-    float: left;
-    color: #4aaaa5;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 24px;
-  }
-/** Nav Bar curser hover color **/
-  .topnav a:hover {
-    background-color: #4aaaab;
-    color: white;
-  }
-/** Nav bar when button is active **/
-  .topnav a.active {
-    color: white;
-  }
-  /** Nav menu shift right **/
-  .topnav-right {
-    float: right;
-    padding: 5px;
-  }
-  body {
+header {
+  margin: 0px;
+}
+#navbar {
+  background: black;
+  text-align: center;
+}
+body {
     margin: 0%;
     height: 1500px;
+    background: url("../images/storm.gif") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 /** Image background **/
 #full {
@@ -46,8 +29,13 @@
     padding: 50px;
     padding-right: 30%;
 }
-hr {
-    box-lines: 20px;
+h1 {
+    padding-top: 50px;
+    padding-bottom: 100px;
+    color: white;
+    font-family: fantasy;
+
+
 }
 /** The life of the page **/
 #content {
@@ -59,33 +47,18 @@ hr {
     border-radius: 4px;
     margin-top: 60px;
 }
-h1 {
-    padding: 0px;
+.masthead-brand {
+  font-family: cursive;
+  font-style: italic;
+  color: white;
 }
 /** Portfolio h2 **/
 #portfolio {
     color: #4aaaab;
 }
 /** image palceholder **/
-img {
-   
-    border-style: solid;
-}
-/** Box display **/
-box1 {
-    display: inline;
-}  
-box2 {
-    display: inline;
-}
-box3 {
-    display: inline;
-}
-box4 {
-    display: inline;
-}
-box5 {
-    display: inline;
+#images {
+   padding-top: 200px;
 }
 
 /** empty pace **/
@@ -93,6 +66,10 @@ box5 {
     padding: 10px;
     background:#4aaaab;
     text-align: center;
+}
+p {
+  padding-left: 46%;
+  
 }
 /** footer **/
 footer {
