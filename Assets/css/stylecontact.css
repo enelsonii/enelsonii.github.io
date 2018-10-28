@@ -3,37 +3,22 @@
   box-sizing: border-box;
   text-align: center;
 } 
-/** Nav bar **/
-.topnav {
-  overflow: hidden;
-  background-color: white;
-  position: fixed;
-  top: 0;
-  width: 100%;
+#navi1 {
+  background-color: black;
 }
-/** Eric Nelson II **/ 
-.topnav a {
-  float: left;
-  color: #4aaaa5;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 24px;
-}
-/** Nav Bar curser hover color **/
-.topnav a:hover {
-  background-color: #4aaaab;
+.form-inline {
   color: white;
 }
-/** Nav bar when button is active **/
-.topnav a.active {
-  color: white;
+body {
+    margin: 0%;
+    height: 1500px;
+    background: url("../images/storm.gif") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
-/** Nav menu shift right **/
-.topnav-right {
-  float: right;
-  padding: 5px;
-}
+
 body {
   margin: 0%;
   height: 1500px;
@@ -42,7 +27,6 @@ body {
 #full {
     width: both;
     overflow: auto;
-    background-image: url("../images/gravel.png");
     padding: 50px;
   }
   /** The life of the page **/
@@ -80,7 +64,6 @@ body {
 /** message box **/
 #message {
     width: 100%;
-    length: 50%;
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
@@ -89,7 +72,7 @@ body {
 }
 /** Submit button **/
 #Submit {
-    background-color: #4aaaab;
+    background-color: darkblue;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -107,11 +90,12 @@ body {
     text-align: center;
 }
 /** footer **/
-footer {
-    padding: 20px;
-    clear: both;
-    background: grey;
-    text-align: center;
+#footer {
+  padding-left: 40%;
+  clear: both;
+  background: black;
+  color: white;
+  text-align: center;
 }
 
 @media (width: 640px) {

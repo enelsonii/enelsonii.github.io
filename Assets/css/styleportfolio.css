@@ -3,14 +3,13 @@
     box-sizing: border-box;
     text-align: center;
     color: white;
-    font-family: cursive;
+
 } 
-header {
-  margin: 0px;
+#navi1 {
+  background-color: black;
 }
-#navbar {
-  background: black;
-  text-align: center;
+.form-inline {
+  color: white;
 }
 body {
     margin: 0%;
@@ -72,11 +71,12 @@ p {
   
 }
 /** footer **/
-footer {
-    padding: 20px;
-    clear: both;
-    background: grey;
-    text-align: center;
+#footer {
+  padding-left: 40%;
+  clear: both;
+  background: black;
+  color: white;
+  text-align: center;
 }
 /* Display size 400px */
 @media (width: 400px) {

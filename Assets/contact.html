@@ -1,46 +1,60 @@
 <!-- Basic Bio -->
 <!DOCTYPE HTML>
 <html>
-    <head>
-        <title>
-            Contact
-        </title>
-        <meta name="viewport" content="width=device-width, initial-scale-1.0">
-        <link rel="stylesheet" type= "text/css" href= "css/stylecontact.css">
-        
-    </head>
-    <body>
-            <div class="topnav">
-                    <a id="Home" href="https://www.youtube.com/watch?time_continue=15&v=hQXV70Z4cFI">Eric Nelson II</a>
-                        <div class="topnav-right">
-                            <a href="index.html">About Me</a>
-                            <a href="portfolio.html">Portfolio</a>
-                            <a href="contact.html">Contact</a>
-                        </div>
-            </div>
-        <div id="full">
-            <div id="content">
-                <div class="col-md-6">
-                    <h2 class="Contact">Contact</h2>
-                    <hr>
-                    <form action=""></form>
-                            <label for="name">Name</label>
-                            <input type="text" id="name" name="name" placeholder="Your name..">
-                            <br>
-                            <label for="email">Email</label>
-                            <input type="text" id="email" name="emal" placeholder="example@gmail.com">
-                            <br>
-                            <label for="subject">Message</label>
-                            <textarea id="message" name="message" style="height:200px"></textarea>
-                            <br>
-                            <input id="Submit" type="submit" value="Submit" action="send message">
-                    </form>
-                </div>
+
+<head>
+    <title>
+        Contact
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale-1.0">
+    <link rel="stylesheet" type="text/css" href="css/stylecontact.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+</head>
+
+<body>
+    <nav class="navbar fixed-top" id="navi1">
+        <a class="navbar-brand" href="https://www.youtube.com/watch?time_continue=4&v=hQXV70Z4cFI">Eric Nelson II</a>
+        <nav class="navbar ">
+            <a class="navbar-brand">
+                <form class="form-inline" id="links">
+                    <button class="btn btn-outline-primary" type="button">
+                        <a href="../index.html">About Me</a>
+                    </button>
+                    <br>
+                    <button class="btn btn-outline-primary" type="button">
+                        <a href="portfolio.html">Portfolio</a>
+                    </button>
+                    <br>
+                    <button class="btn btn-outline-primary" type="button">
+                        <a href="#">Contact</a>
+                    </button>
+                </form>
+        </nav></a>
+    </nav>
+    <div id="full">
+        <div id="content">
+            <div class="col-md-6">
+                <h2 class="Contact">Contact</h2>
+                <hr>
+                <form action=""></form>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Your name..">
+                <br>
+                <label for="email">Email</label>
+                <input type="text" id="email" name="emal" placeholder="example@gmail.com">
+                <br>
+                <label for="subject">Message</label>
+                <textarea id="message" name="message" style="height:200px"></textarea>
+                <br>
+                <input id="Submit" type="submit" value="Submit" action="send message">
+                </form>
             </div>
         </div>
-        <div id="place-holder"></div>
-        <footer>
-                Copyright &copy;
-        </footer>
-    </body>
+    </div>
+    <nav class="navbar fixed-bottom" id="footer">
+        Copyright &copy;
+    </nav>
+</body>
+
 </html>
