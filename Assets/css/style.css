@@ -3,6 +3,12 @@
     box-sizing: border-box;
     text-align: center;
 } 
+#navi1 {
+  background-color: black;
+}
+.form-inline {
+  color: white;
+}
 /** Nav bar **/
   .topnav {
     overflow: hidden;
@@ -83,17 +89,14 @@ div.c {
   text-indent: 50px;
   text-align: left;
 }
-/** empty pace **/
-#place-holder {
-    padding: 10px;
-    background: white;
-    text-align: center;
-}
+
+
 /** footer **/
-footer {
-    padding: 20px;
+#footer {
+    padding-left: 40%;
     clear: both;
-    background: #777777;
+    background: black;
+    color: white;
     text-align: center;
 }
 /* Display size 400px */
