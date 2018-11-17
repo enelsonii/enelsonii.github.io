@@ -3,7 +3,6 @@
     box-sizing: border-box;
     text-align: center;
     color: white;
-
 } 
 #navi1 {
   background-color: black;
@@ -29,13 +28,26 @@ body {
     padding-right: 30%;
 }
 h1 {
-    padding-top: 50px;
+    padding-top: 15%;
     padding-bottom: 100px;
     color: white;
     font-family: fantasy;
-
-
 }
+/* cards */
+#col-md-auto {
+  align-content: center
+}
+h4 {
+  color: black;
+}
+#Box2 {
+  padding-right: 5%;
+}
+
+.card-header {
+  background-color: blue;
+}
+
 /** The life of the page **/
 #content {
     width: 100%;
